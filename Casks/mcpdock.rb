@@ -1,16 +1,16 @@
 cask "mcpdock" do
-  version "0.1.1"
+  version "0.1.2"
 
   on_arm do
     url "https://github.com/hsingjui/mcpdock/releases/download/v#{version}/MCPDock-v#{version}-arm64.dmg",
         verified: "github.com/hsingjui/mcpdock/"
-    sha256 "7de5aba6c2e8c59dad194fbfec2127c277b867b8242386ab5a8291dbfaa6ffba"
+    sha256 "019475a8aaef6cbbfcca81388b88fcafca02146a17150fd3b06da2ff8c485cdb"
   end
 
   on_intel do
     url "https://github.com/hsingjui/mcpdock/releases/download/v#{version}/MCPDock-v#{version}-x64.dmg",
         verified: "github.com/hsingjui/mcpdock/"
-    sha256 "3c857eb3eec0c7bab4d5a0e9e510083bbd1b1f37d8ba878189024a75e328835f"
+    sha256 "4035fb8c826667dc625a6b3a0e2b3904d7b9703721c64489b39040a630cf1712"
   end
 
   name "MCPDock"
